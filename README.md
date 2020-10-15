@@ -15,7 +15,7 @@ Bot feito pro mais brabo do lol: [Vini](https://www.twitch.tv/ToTrilstado) sendo
 
 - **[Node.js](https://www.nodejs.org/)**
 
-- **Crie um arquivo .env na raiz do projeto e preencha as variaveis como no exemplo do arquivo .env.example**
+- **Crie um arquivo .env na raiz do projeto e preencha as variaveis como no exemplo do arquivo .env.example, dado que o Token você pode obter [Neste Serviço](https://twitchapps.com/tmi/)**
 
 ## Executando localmente
 
