@@ -12,6 +12,6 @@ export default (client: Client, channel: string, comand: string) => {
     case types.alves:
       client.say(
         channel,
-        `O Alves já morreu ${Math.round(Math.random() * 20)} enquanto você digitava`)
+        `O Alves já morreu ${Math.round(Math.random() * 20)} vezes enquanto você digitava`)
   }
 }
