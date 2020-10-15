@@ -13,7 +13,7 @@ export default (client: Client, channel: string, comand: string) => {
       const typesKeys = Object.keys(types)
       
       typesKeys.forEach(keyName => {
-        commandsList += `${keyName} |`
+        commandsList += `!${keyName} |`
       })
 
       client.say(

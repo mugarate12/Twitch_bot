@@ -31,12 +31,20 @@ $ npm start
 
 ## Categorias de comandos
 
-1
-2
-3
+1. [Gerais](#gerais)
+2. [Lolzinho](#lolzinho)
+
 
 ## Comandos
 
+### Gerais
+- !commands - lista todos os comandos disponiveis no bot
+- !github - divulga criador do bot <3
+
+### Lolzinho
+
+- !duo - demonstra todo amor que irá receber ao jogar duo comigo
+- !alves - mostra quantas vezes o Alves morreu enquanto digitava essa mensagem (piada interna)
 
 ## Contribuindo
 
