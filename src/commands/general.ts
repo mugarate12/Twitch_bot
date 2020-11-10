@@ -4,6 +4,8 @@ import types from './types'
 export default (client: Client, channel: string, comand: string) => {
   switch (comand) {
     case types.github:
+      console.log('cheguei no comando')
+      console.log(client)
       client.say(
         channel,
         'github do criador do Bot: https://github.com/mugarate12'
