@@ -30,10 +30,10 @@ client.on('message', (channel, userState, message, isBot) => {
   }
 
   commands.forEach(commandCase => {
-    commandCase(client, channel, message)
+    commandCase(channel, message)
   })
 
-  // DE ONDE VEM O MODULO
+  // // DE ONDE VEM O MODULO
   // const child = fork(__dirname + '/readCommand', {
   //   env: {
   //     channel,

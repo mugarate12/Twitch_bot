@@ -1,8 +1,8 @@
 import { Client } from 'tmi.js'
 import types from './types'
+import client from './../client'
 
-
-export default (client: Client, channel: string, comand: string) => {
+export default (channel: string, comand: string) => {
   switch (comand) {
     case types.duo:
       client.say(

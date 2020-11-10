@@ -1,10 +1,9 @@
 import { Client } from 'tmi.js'
 import commands from './commands'
-import client from './client'
 
-const readCommand = (client: Client, channel: string, message: string) => {
+const readCommand = (channel: string, message: string) => {
   commands.forEach(commandCase => {
-    commandCase(client, channel, message)
+    commandCase(channel, message)
   })
 }
 
@@ -16,7 +15,6 @@ process.on('message', (message) => {
     console.log(channel, message)
 
     readCommand(
-      client,
       channel,
       message
     )

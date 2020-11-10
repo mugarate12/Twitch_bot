@@ -1,11 +1,12 @@
 import { Client } from 'tmi.js'
 import types from './types'
+import client from './../client'
 
-export default (client: Client, channel: string, comand: string) => {
+export default (channel: string, comand: string) => {
   switch (comand) {
     case types.github:
       console.log('cheguei no comando')
-      console.log(client)
+      // console.log(client)
       client.say(
         channel,
         'github do criador do Bot: https://github.com/mugarate12'
